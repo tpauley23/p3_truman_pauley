@@ -20,3 +20,32 @@ div.scrollbar {
   border-top: 1px solid black;
   background-color: rgb(172, 0, 0);
 }
+div.pagebuttons {
+  color: red;
+}
+a.first:link,
+a.first:visited {
+  background-color: rgb(146, 0, 0);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.first:hover,
+a.first:active {
+  background-color: red;
+}
+a.second:link,
+a.second:visited {
+  background-color: rgb(146, 0, 0);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.second:hover,
+a.second:active {
+  background-color: red;
+}
