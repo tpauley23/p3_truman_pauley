@@ -138,13 +138,19 @@ div.pic {
 }
 div.sketches {
   float: left;
+  overflow: visible;
+  background-color: white;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-div.dropdown {
+/*all the drop downs when images are clicked on portfolio page*/
+div.dropdown-one {
   position: relative;
   display: inline-block;
 }
 
-div.dropdown-content {
+div.dropdown-content-one {
   text-align: center;
   display: none;
   position: absolute;
@@ -155,6 +161,53 @@ div.dropdown-content {
   padding: 5px;
 }
 
-div.dropdown:hover div.dropdown-content {
+div.dropdown-one:hover div.dropdown-content-one {
   display: block;
+}
+
+div.dropdown-two {
+  position: relative;
+  display: inline-block;
+}
+
+div.dropdown-content-two {
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: rgb(146, 0, 0);
+  color: white;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+div.dropdown-two:hover div.dropdown-content-two {
+  display: block;
+}
+
+div.dropdown-three {
+  position: relative;
+  display: inline-block;
+}
+
+div.dropdown-content-three {
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: rgb(146, 0, 0);
+  color: white;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+div.dropdown-three:hover div.dropdown-content-three {
+  display: block;
+}
+div.portfolioPharagraph {
+  text-align: left;
+  color: white;
+  padding: 10px;
+  background-color: rgb(146, 0, 0);
+  border: 10px solid rgb(102, 0, 0);
 }
