@@ -13,8 +13,13 @@ body {
 h2 {
   text-align: right;
 }
+a.textLink {
+  color: white;
+  text-decoration: none;
+}
 a.textLink:hover,
 a.textLink:active {
+  text-decoration: underline;
   background-color: red;
 }
 div.scrollbar {
@@ -53,7 +58,7 @@ a.second:link,
 a.second:visited {
   background-color: rgb(146, 0, 0);
   color: white;
-  padding: 14px 25px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -216,7 +221,37 @@ div.dropdown-content-three:hover {
 div.dropdown-three:hover div.dropdown-content-three {
   display: block;
 }
-div.portfolioPharagraph {
+div.dropdown-four {
+  position: relative;
+  display: inline-block;
+}
+
+div.dropdown-content-four {
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: blue;
+  color: white;
+  min-width: 60px;
+  box-shadow: px 8px 16px 0px rgb(0, 0, 0);
+  padding: 5px;
+}
+
+div.dropdown-four:hover div.dropdown-content-four {
+  display: block;
+}
+div.dropdown-content-four:active,
+div.dropdown-content-four:hover {
+  background-color: blue;
+}
+div.pharagraph {
+  text-align: left;
+  color: white;
+  padding: 10px;
+  background-color: rgb(146, 0, 0);
+  border: 10px solid rgb(102, 0, 0);
+}
+div.projectonePhara {
   text-align: left;
   color: white;
   padding: 10px;
