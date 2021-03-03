@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
 }
+
 #header {
   color: white;
   text-align: center;
@@ -10,7 +11,7 @@ body {
   padding: 10px;
 }
 h2 {
-  text-align: center;
+  text-align: right;
 }
 a.textLink:hover,
 a.textLink:active {
@@ -116,8 +117,44 @@ a.second:hover,
 a.second:active {
   background-color: red;
 }
-#info {
-  padding: 25px;
-  width: 50%;
+#title {
+  background-color: rgb(146, 0, 0);
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 200%;
+  width: 100%;
+}
+div.info {
   float: right;
+  font-size: 20px;
+  text-align: justify;
+  size: 20%;
+  padding: 10px solid red;
+  width: 40%;
+}
+div.pic {
+  opacity: 1;
+}
+div.sketches {
+  float: left;
+}
+div.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+div.dropdown-content {
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: rgb(146, 0, 0);
+  color: white;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+div.dropdown:hover div.dropdown-content {
+  display: block;
 }
